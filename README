@@ -1,11 +1,11 @@
-Hello guys
+Mass CMS Detector
 
 give execute permission to script then run it 
 
 chmod +x cms-detector.sh
 ./cms-detector.sh sites.txt
 
-Note: target list without https | https 
+Note: targets list without http|https 
 
 by Red V!per 
 
