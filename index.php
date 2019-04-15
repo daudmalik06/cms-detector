@@ -1,7 +1,7 @@
 <?php
 
 include("CMS_Detector.class.php");
-$content=file_get_contents($url);
+$content=file_get_contents($argv[1]);
 $apps=CMS_Detector::process($content);
 foreach($apps as $app)
 {
